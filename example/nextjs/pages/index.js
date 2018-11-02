@@ -26,5 +26,9 @@ export default withI18next(['home', 'common'])(({ t, initialI18nStore, ...rest }
     <Link href="/page3">
       <a>{t('link.gotoPage3')}</a>
     </Link>
+    <br />
+    <Link href="/page4">
+      <a>{t('link.gotoPage4')}</a>
+    </Link>
   </div>
 ));
